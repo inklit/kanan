@@ -18,8 +18,8 @@ Look in the scripts directory for a full list of mods provided with kanan.
 mod go into the `./scripts/` directory and delete it, or add the name of the
 feature (BitmapFont for example) to `disabled.txt`.
 * You can attach kanan to different processes if you are running multiple
-clients. Open an administrator command prompt where `kanan.py` is located and run
-`python kanan.py -p<id>` where `id` is the process id you want to attach to.
+clients. Open an administrator command prompt where `kanan.py` is located and
+run `python kanan.py -p<id>` where `id` is the process id you want to attach to.
 * You can use kanan to load dll's into mabi by modifying `DllLoader.js`. More
 details on what to do are located at the top of that file.
 * You can use kanan's data folder as if it was mabi's data folder for file based
@@ -27,6 +27,8 @@ mods. Read `UseDataFolder.js` for more detail. Essentially this feature
 redirects mabi's data folder, to the data folder `kanan.py` is in allowing you
 to fully mod mabi without touching its folder.
 * Simple scripts can be automatically coalesced to cut down on memory usage.
+* `PatternScanSnapshot.js` automatically disassembles the locations of patterns
+used by each script for archiving and easier updating when something breaks.
 
 ## Known issues
 * Closing the command prompt after patches have been applied has caused crashes

@@ -3,8 +3,10 @@ BitmapFont.js
 ClientSideDevCat.js
 DontTargetNPCs.js
 ElfLagFix.js
+FarAltText.js
 FighterNoForce.js
 FreeIndoorCamera.js
+FreeZoom.js
 HideNPCCurtains.js
 HideSecondTitle.js
 IgnoreTranslucency.js
